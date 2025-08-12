@@ -18,8 +18,8 @@ conda env create -f env.yml
 conda activate clam_latest
 ```
 ### Patching
-`--preset` [bwh_biopsy.csv](https://github.com/mahmoodlab/CLAM/blob/master/presets/bwh_biopsy.csv) for C16 (*It's the preset parameters officially provided by CLAM*),<br>
-`--preset` [preprocess_tcga_nsclc.csv](dataset_csv/preprocess_tcga_nsclc.csv) for TCGA-NSCLS (*It's the customized parameters*).
+`--preset` [bwh_biopsy.csv](preset/bwh_biopsy.csv) for C16 (*It's the preset parameters officially provided by CLAM*),<br>
+`--preset` [preprocess_tcga_nsclc.csv](preset/preprocess_tcga_nsclc.csv) for TCGA-NSCLS (*It's the customized parameters*).
 ```shell
 # for C16
 python create_patches_fp.py --source DATA_DIRECTORY --save_dir RESULTS_DIRECTORY --patch_size 512 \
