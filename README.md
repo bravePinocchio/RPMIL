@@ -3,7 +3,7 @@ This repository provides the code for the PyTorch implementation of **RPMIL: Ret
 
 ## For running on a local machine
 - Linux
-- Python 3.10.9, Torch 2.7.1
+- Python 3.10.0, Torch 2.5.1
 - Nvidia GeForce RTX 3090 GPU
   
 ## Whole Slide Image Data
@@ -40,7 +40,7 @@ DATA_DIRECTORY --csv_path CSV_FILE_NAME --feat_dir FEATURES_DIRECTORY --batch_si
 
 ## Creating the virtual environment
 
-    conda create -n rpmil python=3.10.9
+    conda create -n rpmil python=3.10.0
     conda activate rpmil
 
 ## Getting the code
