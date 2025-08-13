@@ -1,6 +1,6 @@
 # RPMIL
 This repository provides the code for the PyTorch implementation of **RPMIL: Rethinking Uncertainty-Aware Probabilistic Multiple Instance Learning for Whole Slide Pathology Diagnosis**, IJCAI 2025.
- ![](pipeline.png)
+ ![](pipline.png)
 ## For running on a local machine
 - Linux
 - Python 3.10.0, Torch 2.5.1
